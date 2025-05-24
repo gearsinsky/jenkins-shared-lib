@@ -9,8 +9,6 @@ def call() {
         groups
         echo "--- ps aux | grep $$ ---"
         ps aux | grep $$
-        echo "--- docker.sock perms ---"
-        ls -l /var/run/docker.sock
         echo "--- getent group docker ---"
         getent group docker
         echo "--- docker ps ---"
