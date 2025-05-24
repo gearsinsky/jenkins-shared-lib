@@ -11,8 +11,8 @@ def call() {
         ps aux | grep $$
         echo "--- getent group docker ---"
         getent group docker
-        echo "--- docker ps ---"
-        docker ps
+        // echo "--- docker ps ---"
+        // docker ps
     '''
 }
 
